@@ -13,5 +13,13 @@ class english{
     void add(){
         int a = 10;
         System.out.println(a);
+        vanakkam v = new vanakkam();
+        v.welcome();
+    }
+}
+
+class vanakkam{
+    void welcome(){
+        System.out.println("vanakamm");
     }
 }
